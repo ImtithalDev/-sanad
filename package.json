@@ -1,0 +1,28 @@
+{
+  "name": "sanad",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "@sparticuz/chromium": "^131.0.1",
+    "puppeteer-core": "^23.9.0",
+    "zod": "^3.23.8",
+    "next": "14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "puppeteer": "^23.9.0",
+    "typescript": "^5"
+  }
+}
